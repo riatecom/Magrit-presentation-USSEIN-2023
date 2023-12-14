@@ -3,15 +3,20 @@
 ## Description :memo:
 
 *Date* : 19/12/2023, 16h-18h  
-*Public* : Étudiants de l'Université du Sine Saloum El-hâdj ibrahima NIASS (USSEIN)
-*Lieu* : En ligne
-*Durée* : Environ 2 heures
+*Public* : Étudiants de l'Université du Sine Saloum El-hâdj ibrahima NIASS (USSEIN)  
+*Lieu* : En ligne  
+*Durée* : Environ 2 heures  
 
 ## Voir la présentation :book:
 
-La présentation est disponible en ligne à l'adresse suivante : https://mthh.github.io/magrit-presentation-USSEIN-2023/
+La présentation est disponible en ligne à l'adresse suivante : https://mthh.github.io/Magrit-presentation-USSEIN-2023/.
 
-## Pour compiler la présentation puis y accéder :computer:
+Pour la récupérer au format PDF :
+- se rendre à l'adresse https://mthh.github.io/Magrit-presentation-USSEIN-2023/?print-pdf=#/title-slide
+- imprimer la page (<kbd>Ctrl</kbd> + <kbd>P</kbd>) dans un fichier PDF (dans le menu déroulant "Destination", choisir "Enregistrer au format PDF")
+
+
+## Pour compiler la présentation :computer:
 
 - **Prérequis** :
   - [Quarto](https://quarto.org)
