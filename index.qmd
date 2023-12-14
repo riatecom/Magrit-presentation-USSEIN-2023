@@ -1,0 +1,172 @@
+---
+title: "Présentation de l'application de cartographie thématique Magrit 🌍"
+author:
+  name: "Matthieu Viry"
+  email: "matthieu.viry@cnrs.fr"
+subtitle: "19 Décembre 2023 - Université du Sine Saloum El-hâdj ibrahima NIASS"
+format:
+  revealjs:
+    embed-resources: false
+    slide-number: true
+    show-slide-number: all
+    chalkboard: true
+    logo: images/logos-footer.png
+    width: 1150
+    height: 740
+title-slide-attributes:
+  data-background-image: images/logos-footer.png
+  data-background-size: 42%
+  data-background-position: 50% 90%
+css: ['static/style.css']
+prefer-html: true
+lang: fr
+---
+
+
+# Plan de la séance 📝
+
+<br />
+
+1. Introduction
+2. Rappels sur la cartographie thématique et les règles de sémiologie graphique
+3. Présentation de l'application Magrit
+4. Exemples d'utilisation de Magrit (démonstration)
+5. Exercices pratiques / discussion
+
+# Introduction
+
+<center>
+<img src="images/Magrit-red-black-description.png">
+</center>
+
+# Rappels cartographie thématique et sémiologie graphique
+
+## Histoire de la cartographie thématique
+
+## Sémiologie graphique et variables visuelles
+
+## Discrétisation des données
+
+## Habillage, mise en page et mise en scène de la carte
+
+## Erreurs et pièges à éviter
+
+
+
+# Présentation de l'application Magrit
+
+## Des représentations cartographiques classiques
+
+## Des représentations cartographiques combinées
+
+## Des représentations cartographiques "avancées"
+
+## Des représentations cartographiques "avancées"
+
+## Un logiciel libre et gratuit
+
+Le projet Magrit a démarré courant 2016. C'est un projet libre, sous licence CeCILL (une licence compatible avec la licence GPL).
+
+![](images/cecill.png){.w300}
+
+Le code source est disponible sur GitHub : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit).
+
+![](images/github-screenshot.png){.w600}
+
+
+## Une application Web
+
+Magrit est une application Web, c'est à dire qu'elle fonctionne directement dans un navigateur Web et donc avec n'importe quel système d'exploitation (Windows, MacOS, Linux, ...).
+
+<center>
+![](images/ui-and-browser-screenshot.png){.w700}
+</center>
+
+## Une application multilingue
+
+Magrit est disponible en français, anglais et espagnol (Amérique latine).
+
+![](images/magrit-multilang.png){.w300 .bordered}
+
+## Utilisée pour l'apprentissage de la cartographie thématique à l'université
+
+<br /><br />
+
+<center>
+
+![](images/logo_univ.png){.w900}
+
+</center>
+
+
+## Autour de Magrit...
+
+- Magrit dispose d'une documentation complète en français : [https://magrit.cnrs.fr/docs/](https://magrit.cnrs.fr/docs/).
+
+![](images/documentation-screenshot.png){.absolute .bordered top=200 left=200 width="780" height="609"}
+
+## Autour de Magrit...
+
+- Des supports de formations (comprenant slides de cours et exercices), préparés par l'UAR RIATE, sont mis à disposition sous licence CC-BY-SA : [https://github.com/magrit-formations](https://github.com/magrit-formations).
+
+::::{.columns .medium}
+
+:::{.column width=50%}
+
+![](images/formation-screenshot-repository.png){.w400}
+
+:::
+
+:::{.column width=50%}
+
+![](images/formation-screenshot.png)
+
+[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exemple de support de formation ⤴]{.center .small}
+
+[⬅ Page d'accueil du dépôt des supports de formation]{.center .small}
+
+:::
+
+::::
+
+## Autour de Magrit...
+
+# Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
+
+Cette démonstration est basée sur des données ...
+
+Elle consiste à réaliser ...
+
+# Exercices pratiques / discussion
+
+## Exercice pratique
+
+## Perspectives de développement
+
+## Discussion / conclusion
+
+# Merci de votre attention ! 🙏
+
+# Bibliographie indicative
+
+<br />
+
+::::{.columns .medium .center}
+
+:::{.column width=48%}
+
+LAMBERT Nicolas, ZANIN Christine.<br />**Manuel de cartographie. Principes, méthodes, applications**.<br />Armand Colin, 2016.
+
+<img src="images/LZ.jpeg" class="bordered" style="width: 60%"/>
+
+:::
+
+:::{.column width=48%}
+
+BEGUIN Michèle, PUMAIN Denise.<br />**La représentation des données géographiques. Statistique et cartographie**.<br />4ème édition. Armand Colin, 2014.
+
+<img src="images/BP.jpg" class="bordered" style="width: 60%"/>
+
+:::
+
+::::
