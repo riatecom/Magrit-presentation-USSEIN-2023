@@ -43,17 +43,47 @@ lang: fr
 
 ## Histoire de la cartographie thématique
 
+- La cartographie thématique est une discipline qui a émergé au cours du **XIXe siècle**.
+- Elle est née de la volonté de **représenter des données statistiques sur une carte**.
+- Elle a été développée par des **statisticiens** et des **géographes**.
+- Elle est par exemple utilisée pour **étudier les phénomènes sociaux** (démographie, économie, etc.) et **environnementaux** (climat, géologie, etc.).
+- Elle est utilisée pour **communiquer** sur ces phénomènes et facilier la **prise des décisions**.
+
 ## Sémiologie graphique et variables visuelles
 
+- La sémiologie graphique est une discipline qui a été développée par **Jacques Bertin** dans les années **1960**.
+- Elle permet de **choisir les variables visuelles** (couleur, taille, forme, etc.) les plus adaptées pour représenter une information.
+- Elle permet de **construire des cartes efficaces** (c'est à dire qui permettent de transmettre l'information de manière claire et précise) et **esthétiques** (c'est à dire qui permettent de transmettre l'information de manière agréable).
+
+## Les règles de sémiologie graphique
+
+
 ## Discrétisation des données
+
+- La **discrétisation** est une étape importante dans la réalisation d'une carte thématique.
+- Elle consiste à **regrouper les données** en classes.
+- Cela permet de **simplifier la carte** et de **rendre l'information plus lisible**.
 
 ## Habillage, mise en page et mise en scène de la carte
 
 ## Erreurs et pièges à éviter
 
 
-
 # Présentation de l'application Magrit
+
+## Un outil complet
+
+<center>
+
+![](images/magrit-complete-tool.png){.w700}
+
+</center>
+
+## Différents types de représentations cartographiques
+
+<center>
+<img src="images/Magrit-red-black-description.png" class="w900">
+</center>
 
 ## Des représentations cartographiques classiques
 
@@ -76,7 +106,7 @@ Le code source est disponible sur GitHub : [https://github.com/riatelab/magrit](
 
 ## Une application Web
 
-Magrit est une application Web, c'est à dire qu'elle fonctionne directement dans un navigateur Web et donc avec n'importe quel système d'exploitation (Windows, MacOS, Linux, ...).
+Magrit est une application Web, c'est à dire qu'elle fonctionne **directement dans un navigateur Web** et donc avec n'importe quel système d'exploitation (Windows, MacOS, Linux, ...).
 
 <center>
 ![](images/ui-and-browser-screenshot.png){.w700}
@@ -84,9 +114,75 @@ Magrit est une application Web, c'est à dire qu'elle fonctionne directement dan
 
 ## Une application multilingue
 
-Magrit est disponible en français, anglais et espagnol (Amérique latine).
+<br />
 
+Magrit est disponible en **français**, **anglais** et **espagnol** (Amérique latine).
+
+<br />
+<center>
 ![](images/magrit-multilang.png){.w300 .bordered}
+</center>
+
+## De nombreux formats de données supportés en entrée
+
+<br />
+
+::::{.columns .medium}
+
+:::{.column width=50%}
+
+Magrit permet d'importer des **données géographiques** dans de nombreux formats :
+
+- GeoJSON
+- TopoJSON
+- Shapefile
+- GML
+- KML
+- GeoPackage
+
+:::
+
+:::{.column width=50%}
+
+Magrit permet également d'importer des **données tabulaires** (qui pourront être jointes à des données géographiques) :
+
+- CSV
+- XLS et XLSX
+- ODS
+
+:::
+::::
+
+## Différents types d'exports disponibles
+
+<br />
+
+Magrit permet d'exporter les cartes réalisées dans différents formats :
+
+- PNG (par ex. pour une utilisation directe dans un rapport ou une présentation)
+- SVG (par ex. pour permettre une édition ultérieure dans un logiciel de dessin vectoriel comme InkScape ou Adobe Illustrator)
+
+*Image*
+
+## Différents types d'exports disponibles
+
+<br />
+
+:::{.medium}
+
+Il est également possible d'exporter les couches présentes dans la carte dans différents formats :
+
+- GeoJSON
+- TopoJSON
+- Shapefile
+- GML
+- KML
+- CSV (seulement les données attributaires)
+
+<br />
+💡 Utile par exemple pour réutiliser les couches issues de certaines modes de représentation (lissage, discontinuités, cartogrammes, etc.) dans un SIG.
+
+:::
 
 ## Utilisée pour l'apprentissage de la cartographie thématique à l'université
 
@@ -133,9 +229,31 @@ Magrit est disponible en français, anglais et espagnol (Amérique latine).
 
 # Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
 
-Cette démonstration est basée sur des données ...
+## Démonstration
 
-Elle consiste à réaliser ...
+<br />
+
+*Cette démonstration vise à présenter les principales fonctionnalités de Magrit, de la réalisation rapide d'une carte simple
+jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.*
+
+<br />
+
+<center>
+
+**🖥️🕜 [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**
+
+</center>
+
+:::{.medium}
+
+<br />
+
+**Données utilisées :**
+
+- Départements et régions du Sénégal
+- Données de population (RGPHAE 2013)
+
+:::
 
 # Exercices pratiques / discussion
 
@@ -145,9 +263,7 @@ Elle consiste à réaliser ...
 
 ## Discussion / conclusion
 
-# Merci de votre attention ! 🙏
-
-# Bibliographie indicative
+## Bibliographie indicative
 
 <br />
 
@@ -170,3 +286,17 @@ BEGUIN Michèle, PUMAIN Denise.<br />**La représentation des données géograph
 :::
 
 ::::
+
+# Merci de votre attention ! 🙏
+
+<br />
+
+**Magrit** : [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)
+
+**Dépôt GitHub** : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit)
+
+**Documentation** : [https://magrit.cnrs.fr/docs/](https://magrit.cnrs.fr/docs/)
+
+<br />
+
+**Contact** : [matthieu.viry@cnrs.fr](mailto:matthieu.viry@cnrs.fr)
