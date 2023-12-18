@@ -109,6 +109,12 @@ kbd {
     height: auto !important;
 }
 
+.w1000 {
+    display: inline-block !important;
+    width: 1000px !important;
+    height: auto !important;
+}
+
 .grViz {
     overflow-y: hidden;
 }

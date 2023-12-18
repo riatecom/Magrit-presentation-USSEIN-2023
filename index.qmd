@@ -258,6 +258,8 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 
 ## Comment procéder ?
 
+<br />
+
 :::{.medium}
 
 ### 1. Résumer la série statistique
@@ -280,11 +282,15 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 
 # Les méthodes de discrétisations
 
-## Quelle discrétisation choisir
+## Quelle discrétisation choisir ?
+
+<br />
 
 ![](images/Figure-2.08.png)
 
 ## Les méthodes
+
+<br />
 
 ::: panel-tabset
 ### Les seuils naturels
@@ -571,7 +577,7 @@ plot(nuts2, col = "peachpuff", border = "white", add = TRUE)
 
 Le niveau de détail relatif aux géometries vectorielles (nombre de points).
 
-Les fournisseurs de données géographiques fournissent régulièrement plusieurs niveaux de généralisation, comme **Eurostat (GISCO)** ou **Natural Earth**.
+Les fournisseurs de données géographiques fournissent régulièrement plusieurs niveaux de généralisation, comme **Natural Earth**.
 
 ::: panel-tabset
 ### 10 (large)
@@ -698,7 +704,8 @@ Les fournisseurs de fonds de carte géoréférencés sont nombreux...
 -   <a href="https://land.copernicus.eu/" target="_blank">Copernicus</a>
 -   <a href="https://www.worldpop.org/" target="_blank">World Pop</a>
 -   <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data" target="_blank">Eurostat - GISCO</a>
--   <a href="https://www.openstreetmap.fr/" target="_blank">OpenSreetMap (OSM)</a>, données exportables via des API comme <a href="http://overpass-turbo.eu/" target="_blank">Overpass-turbo</a>
+-   <a href="https://www.openstreetmap.fr/" target="_blank">OpenSreetMap (OSM)</a> (via des API comme <a href="http://overpass-turbo.eu/" target="_blank">Overpass-turbo</a>
+    ou des sites comme <a href="https://download.geofabrik.de/" target="_blank">Geofabrik</a>)  
 
 :::
 
@@ -706,39 +713,16 @@ Les fournisseurs de fonds de carte géoréférencés sont nombreux...
 
 L'ensemble des informations relatives à un objet géographique, qui le décrivent et le caractérisent.
 
-```{r, echo = FALSE, out.width = "800px", fig.align='center'}
-knitr::include_graphics('images/attribut.png')
-```
+<center>
+
+![](images/attribut.png){.w1000 .bordered}
+
+</center>
 
 ## Pourquoi faire ?
 
-Les géométries contiennent souvent quelques attributs statistiques, **assez limités** pour initier des analyses ou produire des représentations cartographiques.
-
-::: columns
-::: {.column width="49%"}
-::: medium
-Attributs associés aux géométries des communes françaises (IGN)
-:::
-
-```{r, echo = FALSE, out.width = "800px", fig.align='center'}
-com <- read.csv("data/insee_extract.csv")
-head(com, 5)
-```
-:::
-
-::: {.column width="49%"}
-::: medium
-<center>Attributs associés aux géométries des régions européennes (GISCO)</center>
-:::
-
-```{r, echo = FALSE, out.width = "800px", fig.align='center'}
-library(giscoR)
-nuts2 <- gisco_get_nuts(nuts_level = 2, country = "FR", resolution = "60", epsg = "3035")
-nuts2 <- st_set_geometry(nuts2, NULL)
-head(nuts2)
-```
-:::
-:::
+<br />
+Les géométries contiennent parfois quelques attributs statistiques, **assez limités** pour initier des analyses ou produire des représentations cartographiques.
 
 
 ## Dimension géographique de tableaux de données statistiques
@@ -765,7 +749,9 @@ On parle ici de tableaux de données définis par :
 
 ## Comment faire ?
 
+:::{.medium}
 Dans les cas relevant de la donnée institutionnelle c'est plutôt facile ! Les codes géographiques (uniques) des unités territoriales qui composent les fonds de carte sont normés et une association étroite entre fond de carte.
+:::
 
 ::::{.columns .medium}
 ::: {.column width="49%"}
@@ -775,8 +761,6 @@ On peut citer par exemple :
 -   À l'**échelle mondiale** : Natural Earth (géométries) / Nations Unies (Population prospect) : pays définis par des codes ISO uniques.
 -   À l'**échelle européenne** : GISCO (géométries) / Eurostat (données socio-économiques). Régions européennes définies par la nomenclature **NUTS**.
 -   À l'**échelle française** : IGN (géométries) / INSEE. Plusieurs découpages disponibles (communes, EPCI, etc.)
-
-Il faut juste veiller à la **compatibilité de version des données et géométries**
 
 :::
 
@@ -802,7 +786,6 @@ On peut citer par exemple :
 -   À l'**échelle européenne** : GISCO (géométries) / Eurostat (données socio-économiques). Régions européennes définies par la nomenclature **NUTS**.
 -   À l'**échelle française** : IGN (géométries) / INSEE. Plusieurs découpages disponibles (communes, EPCI, etc.)
 
-Il faut juste veiller à la **compatibilité de version des données et géométries**
 :::
 
 ::: {.column width="49%"}
