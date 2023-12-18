@@ -1,7 +1,7 @@
 ---
 title: "Présentation de l'application de cartographie thématique Magrit 🌍"
 author:
-  name: "Matthieu Viry"
+  name: "Matthieu Viry (CNRS - UAR RIATE)"
   email: "matthieu.viry@cnrs.fr"
 subtitle: "19 Décembre 2023 - Université du Sine Saloum El-hâdj ibrahima NIASS"
 format:
@@ -17,6 +17,8 @@ title-slide-attributes:
   data-background-image: images/logos-footer.png
   data-background-size: 42%
   data-background-position: 50% 90%
+execute:
+  cache: true
 css: ['static/style.css']
 prefer-html: true
 lang: fr
@@ -43,17 +45,13 @@ lang: fr
 
 ## Histoire de la cartographie thématique
 
+<br />
+
 - La cartographie thématique est une discipline qui a émergé au cours du **XIXe siècle**.
 - Elle est née de la volonté de **représenter des données statistiques sur une carte**.
 - Elle a été développée par des **statisticiens** et des **géographes**.
 - Elle est par exemple utilisée pour **étudier les phénomènes sociaux** (démographie, économie, etc.) et **environnementaux** (climat, géologie, etc.).
 - Elle est utilisée pour **communiquer** sur ces phénomènes et facilier la **prise des décisions**.
-
-## Sémiologie graphique et variables visuelles
-
-- La sémiologie graphique est une discipline qui a été développée par **Jacques Bertin** dans les années **1960**.
-- Elle permet de **choisir les variables visuelles** (couleur, taille, forme, etc.) les plus adaptées pour représenter une information.
-- Elle permet de **construire des cartes efficaces** (c'est à dire qui permettent de transmettre l'information de manière claire et précise) et **esthétiques** (c'est à dire qui permettent de transmettre l'information de manière agréable).
 
 ## Aux origines de la sémiologie graphique
 
@@ -82,6 +80,14 @@ lang: fr
 
 :::
 ::::
+
+:::{.notes}
+
+- La sémiologie graphique est une discipline qui a été développée par **Jacques Bertin** dans les années **1960**.
+- Elle permet de **choisir les variables visuelles** (couleur, taille, forme, etc.) les plus adaptées pour représenter une information.
+- Elle permet de **construire des cartes efficaces** (c'est à dire qui permettent de transmettre l'information de manière claire et précise) et **esthétiques** (c'est à dire qui permettent de transmettre l'information de manière agréable).
+
+:::
 
 ## Le support du langage cartographique
 
@@ -129,30 +135,10 @@ lang: fr
 
 <center><img src="images/VV_arbre.png" width="720"/></center>
 
-## Pour s'en convaincre...
-
-::: columns
-::: {.column width="50%"}
-<img src="images/map_failed_1.jpg" width="350"/>
-:::
-
-::: {.column width="50%"}
-:::
-:::
-
-## Pour s'en convaincre...
-
-::: columns
-::: {.column width="50%"}
-<img src="images/map_failed_1.jpg" width="350"/>
-:::
-
-::: {.column width="50%"}
-<img src="images/map_failed_2.jpg" width="350"/>
-:::
-:::
 
 ## Typer les données pour les représenter
+
+<br />
 
 <center><img src="images/typer.png" width="700" class="bordered"/></center>
 
@@ -205,22 +191,10 @@ lang: fr
 Source : Libération, 2015
 :::
 
-##  {.hide background-color="white" background-image="images/map_taille_2.png" background-size="contain"}
-
-::: footer
-Source : [Philippe Rekacewicz, 2014](https://visionscarto.net/l-arc-des-refugies), mis à jour en 2017
-:::
-
 ##  {.hide background-color="white" background-image="images/map_taille_3.png" background-size="contain"}
 
 ::: footer
 **Les émigrants du Globe** (Minard, 1862)
-:::
-
-##  {.hide background-color="white" background-image="images/map_taille_4.png" background-size="contain"}
-
-::: footer
-Fait avec Magrit ! Ce type de représentations nécessitent un travail important. De sélection tout d'abord (quel flux représenter ?) et d'édition ensuite (éviter le chevauchement des flux).
 :::
 
 ##  {.hide background-color="white" background-image="images/map_taille_5.png" background-size="contain"}
@@ -270,7 +244,7 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 -   Les données quantitatives relatives (taux, indices etc.) doivent *toujours* être synthétisées et subdivisées en classes de valeurs.\
     Cette procédure est souvent nommée **discrétisation**.
 
-# Les discrétisations {.inverse background-color="black"}
+# Les discrétisations
 
 ## Quelques principes
 
@@ -282,13 +256,15 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 
 4.  Il est préférable d'utiliser des limites de classes arrondies ou pertinentes. Les bornes de classes doivent être facile à lire et à mémoriser.
 
-## Comment procéder
+## Comment procéder ?
+
+:::{.medium}
 
 ### 1. Résumer la série statistique
 
 -   Paramètres de position ou valeurs centrales (moyenne, médiane, mode)\
     Ces paramètres indiquent la valeur "typique" autour de laquelle les observations sont réparties.
--   Paramètres de dispersion (écart-type, intervalle inter quartiles...)\
+-   Paramètres de dispersion (écart-type, intervalle interquartile...)\
     Ces paramètres mesurent de l'écart des valeurs d'une distribution à une valeur centrale.
 
 ### 2. Analyser la forme de la distribution
@@ -296,13 +272,15 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 -   Histogrammes, boîtes à moustaches, essaim d'abeilles (*beeswarm*)
 -   ...
 
-### 3. Déterminer les intervales des classes
+### 3. Déterminer les intervalles des classes
 
--   Il exise de nombreuses méthodes.
+-   Il existe de nombreuses méthodes.
 
-# Les méthodes de discrétisations {.inverse background-color="black"}
+:::
 
-## Quelle dicrétisation choisir
+# Les méthodes de discrétisations
+
+## Quelle discrétisation choisir
 
 ![](images/Figure-2.08.png)
 
@@ -332,23 +310,21 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 
 ## Les méthodes
 
-::: columns
-::: {.column width="48%"}
-::: medium
-![](images/Figure-2.14.png)
-:::
-:::
-:::
+<center>
+
+![](images/Figure-2.14.png){.w600}
+
+</center>
 
 ## Visualisation des discrétisations : une petite application pédagogique
 
-::: columns
-::: {.column width="68%"}
-::: medium
-[![](images/jeg.png)](https://mappemonde.gitpages.huma-num.fr/archives/119/)
-:::
-:::
-:::
+<center>
+
+![](images/jeg.png){.bordered .w600}
+
+[Lien direct : [https://mappemonde.gitpages.huma-num.fr/archives/119/](https://mappemonde.gitpages.huma-num.fr/archives/119/)]{.small}
+</center>
+
 
 ::: aside
 Laurent Jégou, « Géovisualisation des discrétisations : une petite application pédagogique », *Mappemonde*, 119 \| 2017, <https://doi.org/10.4000/mappemonde.2569>
@@ -356,7 +332,14 @@ Laurent Jégou, « Géovisualisation des discrétisations : une petite applicati
 
 ## Les méthodes de discrétisation et leur utilisation dans Magrit
 
+<br />
+
+<center>
+
 {{< video https://www.youtube.com/embed/7J5CCpGSGvA width="560" height="315" >}}
+
+</center>
+
 
 ::: aside
 Nicolas Lambert, 2020. COURS - Les méthodes de discrétisation et leur utilisation dans Magrit. <https://www.youtube.com/watch?v=7J5CCpGSGvA>
@@ -704,6 +687,8 @@ Des outils existent pour simplifier le niveau de détail des géométries, comme
 
 Les fournisseurs de fonds de carte géoréférencés sont nombreux...
 
+<br />
+
 :::{.medium}
 
 **Au niveau international**
@@ -1023,7 +1008,7 @@ Il est également possible d'exporter les couches présentes dans la carte dans 
 
 ## Autour de Magrit...
 
-- Des supports de formations (comprenant slides de cours et exercices), préparés par l'UAR RIATE, sont mis à disposition sous licence CC-BY-SA : [https://github.com/magrit-formations](https://github.com/magrit-formations).
+- Des supports de formations (comprenant slides de cours et exercices), préparés par l'[UAR RIATE](https://riate.cnrs.fr), sont mis à disposition sous licence CC-BY-SA : [https://github.com/magrit-formations](https://github.com/magrit-formations).
 
 ::::{.columns .medium}
 
