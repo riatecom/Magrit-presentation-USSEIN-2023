@@ -3,7 +3,7 @@ title: "Présentation de l'application de cartographie thématique Magrit 🌍"
 author:
   name: "Matthieu Viry (CNRS - UAR RIATE)"
   email: "matthieu.viry@cnrs.fr"
-subtitle: "19 Décembre 2023 - Université du Sine Saloum El-hâdj ibrahima NIASS"
+subtitle: "19 Décembre 2023 - Université du Sine Saloum El-hâdj Ibrahima NIASS"
 format:
   revealjs:
     embed-resources: false
@@ -30,7 +30,7 @@ lang: fr
 <br />
 
 1. Introduction
-2. Rappels sur la cartographie thématique et les règles de sémiologie graphique
+2. Rappels cartographie thématique et sémiologie graphique
 3. Présentation de l'application Magrit
 4. Exemples d'utilisation de Magrit (démonstration)
 5. Exercices pratiques / discussion
@@ -40,6 +40,12 @@ lang: fr
 <center>
 <img src="images/Magrit-red-black-description.png">
 </center>
+
+:::{.notes}
+
+Me présenter et présenter en 2 mots le RIATE et la genèse du projet Magrit.
+
+:::
 
 # Rappels cartographie thématique et sémiologie graphique
 
@@ -232,14 +238,20 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 
 ## Discrétisation des données
 
+<br />
+
 - La **discrétisation** est une étape importante dans la réalisation d'une carte thématique.
 - Elle consiste à **regrouper les données** en classes.
 - Cela permet de **simplifier la carte** et de **rendre l'information plus lisible**.
 
 ## Avant de cartographier
 
+<br />
+
 -   L'information statistique contenue dans une table attributaire ne peut pas toujours être cartographiée directement.\
     Pour être intelligible, l'information doit souvent être convertie, modifiée, réduite au préalable.
+
+<br />
 
 -   Les données quantitatives relatives (taux, indices etc.) doivent *toujours* être synthétisées et subdivisées en classes de valeurs.\
     Cette procédure est souvent nommée **discrétisation**.
@@ -247,6 +259,8 @@ Carte figurative de l'instruction populaire de la France (1826), par Charles Dup
 # Les discrétisations
 
 ## Quelques principes
+
+<br />
 
 1.  Les classes doivent être homogènes et distinctes les unes des autres.
 
@@ -353,7 +367,7 @@ Nicolas Lambert, 2020. COURS - Les méthodes de discrétisation et leur utilisat
 
 ## Habillage, mise en page et mise en scène de la carte
 
-## Erreurs et pièges à éviter
+# Et en termes de données ?
 
 ## Les composantes de l'information géographique
 
@@ -414,7 +428,8 @@ L'information géographique est alors stockée dans des cellules (pixel) contigu
 
 Chaque pixel **défini par une résolution** possède des valeurs qui peuvent être traitées et cartographiées.
 
-Leur manipulation et analyse relève de champs méthodologiques particuliers (télédétection). Les logiciels de cartographie thématique ne sont pas adaptés à leur manipulation (\> SIG).
+<!-- Leur manipulation et analyse relève de champs méthodologiques particuliers (télédétection). Les logiciels de cartographie thématique ne sont pas adaptés à leur manipulation (\> SIG). -->
+
 :::
 
 ::: {.column width="51%"}
@@ -802,6 +817,8 @@ Pour les fonds de carte "moins conventionnels", utiliser les fonctionnalités de
 
 ## Comment faire ?
 
+<br />
+
 ::::{.columns .medium}
 ::: {.column width="49%"}
 
@@ -819,12 +836,14 @@ Les jointures attributaires sont utilisées pour introduire des informations nou
 
 ![](images/jointure_attributaire.png)
 
-Source : Université Virtuelle Environnement et Développement durable, glossaire des SIG
+[Source : Université Virtuelle Environnement et Développement durable, glossaire des SIG]{.small}
 
 :::
 ::::
 
 ## Comment faire ?
+
+<br />
 
 La jointure attributaire est une fonctionnalité de base des logiciels de cartographie thématique ou de SIG.
 
@@ -864,20 +883,6 @@ La jointure attributaire est une fonctionnalité de base des logiciels de cartog
 ![](images/magrit-complete-tool.png){.w700}
 
 </center>
-
-## Différents types de représentations cartographiques
-
-<center>
-<img src="images/Magrit-red-black-description.png" class="w900">
-</center>
-
-## Des représentations cartographiques classiques
-
-## Des représentations cartographiques combinées
-
-## Des représentations cartographiques "avancées"
-
-## Des représentations cartographiques "avancées"
 
 ## Un logiciel libre et gratuit
 
@@ -938,6 +943,38 @@ Magrit permet également d'importer des **données tabulaires** (qui pourront ê
 
 :::
 ::::
+
+## La chaîne de traitement
+
+Les menus de l’application suivent les étapes d’une chaine de traitement de l’information géographique :
+
+<center>
+
+![](images/chaine-traitement-magrit.png){.bordered .w800}
+
+</center>
+
+## Différents types de représentations cartographiques
+
+<center>
+<img src="images/Magrit-red-black-description.png" class="w900">
+</center>
+
+## Des représentations cartographiques classiques
+
+## Des représentations cartographiques combinées
+
+## Des représentations cartographiques "avancées"
+
+## Des représentations cartographiques "avancées"
+
+## Mise en page
+
+<center>
+
+![](images/mise-en-page.png){.w800 .bordered}
+
+</center>
 
 ## Différents types d'exports disponibles
 
@@ -1015,6 +1052,14 @@ Il est également possible d'exporter les couches présentes dans la carte dans 
 
 ## Autour de Magrit...
 
+- Un carnet de recherche est également disponible sur la plateforme Hypotheses : [https://magrit.hypotheses.org/](https://magrit.hypotheses.org/).
+
+<center>
+
+![](images/hypotheses.png){.w800 .bordered}
+
+</center>
+
 # Exemple d'utilisation de Magrit <br /> - <br /> Démonstration
 
 ## Démonstration
@@ -1080,9 +1125,17 @@ Déroulé de la démonstration :
 
 ## Perspectives de développement
 
-- Un logiciel en développement actif...
+<br />
 
+Un logiciel en développement actif...
 
+<br />
+
+- Intégration de **nouvelles fonctionnalités** (analyses statistiques bivariées ou multivariées, personnalisation de nombreux éléments, etc.)
+
+- **Amélioration de l'interface utilisateur**
+
+- Facilitation de l'**installation sur un poste de travail personnel**
 
 ## Discussion / conclusion
 
@@ -1114,14 +1167,14 @@ BEGUIN Michèle, PUMAIN Denise.<br />**La représentation des données géograph
 
 <br />
 
-**Magrit** : [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)
-
-**Dépôt GitHub** : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit)
+**Magrit** : **[https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**
 
 **Documentation** : [https://magrit.cnrs.fr/docs/](https://magrit.cnrs.fr/docs/)
+
+**Dépôt GitHub** : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit)
 
 **Supports de formation** : [https://github.com/magrit-formations](https://github.com/magrit-formations)
 
 <br />
 
-**Contact** : [matthieu.viry@cnrs.fr](mailto:matthieu.viry@cnrs.fr)
+_**Contact** : [matthieu.viry@cnrs.fr](mailto:matthieu.viry@cnrs.fr)_
