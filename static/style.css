@@ -108,3 +108,7 @@ kbd {
     width: 900px !important;
     height: auto !important;
 }
+
+.grViz {
+    overflow-y: hidden;
+}

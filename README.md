@@ -20,6 +20,7 @@ Pour la récupérer au format PDF :
 
 - **Prérequis** :
   - [Quarto](https://quarto.org)
+  - R + les packages `sf`, `giscoR`, `rnaturalearth`, `DiagrammeR`
 
 - **Étapes** :
   - Cloner le dépôt

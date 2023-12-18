@@ -55,7 +55,205 @@ lang: fr
 - Elle permet de **choisir les variables visuelles** (couleur, taille, forme, etc.) les plus adaptées pour représenter une information.
 - Elle permet de **construire des cartes efficaces** (c'est à dire qui permettent de transmettre l'information de manière claire et précise) et **esthétiques** (c'est à dire qui permettent de transmettre l'information de manière agréable).
 
-## Les règles de sémiologie graphique
+## Aux origines de la sémiologie graphique
+
+<br>
+
+<center>**Le langage cartographique** a été théorisé par **Jacques Bertin** (1967).</center>
+
+::::{.columns .medium}
+::: {.column width="33%"}
+
+![](images/bertin_1.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+<br> *"Si pour obtenir une réponse correcte et complète à une question donnée (...) une construction requiert un temps d'observation plus court qu'une autre construction, on dira qu'elle est plus efficace pour cette question"*
+
+<br> Il développe une **grammaire graphique** en lien avec l'information à représenter (les données).
+
+:::
+
+::: {.column width="33%"}
+
+![](images/bertin_2.jpg)
+
+:::
+::::
+
+## Le support du langage cartographique
+
+<center><img src="images/implantation.png" width="800"/></center>
+
+## Variables visuelles et implantation
+
+::: columns
+::: {.column width="50%"}
+<img src="images/VV_valeur.png" width="550"/> <img src="images/VV_couleur.png" width="550"/> <img src="images/VV_taille_ordre.png" width="550"/>
+:::
+
+::: {.column width="50%"}
+<img src="images/VV_harmonique.png" width="550"/> <img src="images/VV_intensite.png" width="550"/> <img src="images/VV_forme.png" width="550"/>
+:::
+:::
+
+## Variables visuelles et implantation
+
+<br />
+
+<center><img src="images/VV_grain.png" width="550"/> <img src="images/VV_orientation.png" width="550"/> <img src="images/VV_texture_diff.png" width="550"/></center>
+
+## Propriétés des variables visuelles
+
+<br />
+
+<center><img src="images/VV_prop.png" width="800"/></center>
+
+## Propriétés des variables visuelles
+
+<br />
+
+<center><img src="images/VV_categories.png" width="800"/></center>
+
+## Des données aux variables visuelles
+
+<br />
+
+<center><img src="images/VV_donnee_carte.png" width="800"/></center>
+
+## Des données aux variables visuelles
+
+<br />
+
+<center><img src="images/VV_arbre.png" width="720"/></center>
+
+## Pour s'en convaincre...
+
+::: columns
+::: {.column width="50%"}
+<img src="images/map_failed_1.jpg" width="350"/>
+:::
+
+::: {.column width="50%"}
+:::
+:::
+
+## Pour s'en convaincre...
+
+::: columns
+::: {.column width="50%"}
+<img src="images/map_failed_1.jpg" width="350"/>
+:::
+
+::: {.column width="50%"}
+<img src="images/map_failed_2.jpg" width="350"/>
+:::
+:::
+
+## Typer les données pour les représenter
+
+<center><img src="images/typer.png" width="700" class="bordered"/></center>
+
+# Données qualitatives nominales
+
+## Exprimer la différenciation
+
+::: columns
+::: {.column width="50%"}
+<img src="images/VV_couleur.png" width="450"/> <img src="images/VV_forme.png" width="450"/> <img src="images/VV_orientation.png" width="450"/> <img src="images/VV_texture_diff.png" width="450"/>
+:::
+
+::: {.column width="50%"}
+:::
+:::
+
+## Exprimer la différenciation
+
+::: columns
+::: {.column width="50%"}
+<img src="images/VV_couleur.png" width="450"/> <img src="images/VV_forme.png" width="450"/> <img src="images/VV_orientation.png" width="450"/> <img src="images/VV_texture_diff.png" width="450"/>
+:::
+
+::: {.column width="50%"}
+<img src="images/efficacite_differenciation.png" width="550"/>
+:::
+:::
+
+##  {.hide background-color="white" background-image="images/map_couleur.jpg" background-size="contain"}
+
+##  {.hide background-color="white" background-image="images/map_forme.png" background-size="contain"}
+
+# Données quantités absolues (stocks)
+
+## Exprimer des quantités
+
+::: columns
+::: {.column width="50%"}
+<img src="images/VV_taille_ordre.png" width="550"/>
+:::
+
+::: {.column width="50%"}
+<img src="images/quantite_surface.png" width="550"/>
+:::
+:::
+
+##  {.hide background-color="white" background-image="images/map_taille_1.png" background-size="contain"}
+
+::: footer
+Source : Libération, 2015
+:::
+
+##  {.hide background-color="white" background-image="images/map_taille_2.png" background-size="contain"}
+
+::: footer
+Source : [Philippe Rekacewicz, 2014](https://visionscarto.net/l-arc-des-refugies), mis à jour en 2017
+:::
+
+##  {.hide background-color="white" background-image="images/map_taille_3.png" background-size="contain"}
+
+::: footer
+**Les émigrants du Globe** (Minard, 1862)
+:::
+
+##  {.hide background-color="white" background-image="images/map_taille_4.png" background-size="contain"}
+
+::: footer
+Fait avec Magrit ! Ce type de représentations nécessitent un travail important. De sélection tout d'abord (quel flux représenter ?) et d'édition ensuite (éviter le chevauchement des flux).
+:::
+
+##  {.hide background-color="white" background-image="images/map_taille_5.png" background-size="contain"}
+
+::: footer
+Source : Le [Grand Continent](https://legrandcontinent.eu/fr/2022/04/13/50-cartes-pour-lire-le-premier-tour-de-la-presidentielle-de-2022/), 2022
+:::
+
+##  {.hide background-color="white" background-image="images/map_taille_6.png" background-size="contain"}
+
+::: footer
+Cartogrammes non contigus, Judy Olson, novembre 1976
+:::
+
+# Données quantitatives relatives (ratios)
+
+## Exprimer l'ordre
+
+::: columns
+::: {.column width="50%"}
+<img src="images/VV_valeur.png" width="550"/> <img src="images/VV_harmonique.png" width="550"/> <img src="images/VV_intensite.png" width="550"/>
+:::
+
+::: {.column width="50%"}
+<img src="images/VV_taille_ordre.png" width="550"/> <img src="images/VV_grain.png" width="550"/>
+:::
+:::
+
+##  {.hide background-color="white" background-image="images/map_valeur_1.jpg" background-size="contain"}
+
+::: footer
+Carte figurative de l'instruction populaire de la France (1826), par Charles Dupin
+:::
 
 
 ## Discrétisation des données
@@ -64,10 +262,630 @@ lang: fr
 - Elle consiste à **regrouper les données** en classes.
 - Cela permet de **simplifier la carte** et de **rendre l'information plus lisible**.
 
+## Avant de cartographier
+
+-   L'information statistique contenue dans une table attributaire ne peut pas toujours être cartographiée directement.\
+    Pour être intelligible, l'information doit souvent être convertie, modifiée, réduite au préalable.
+
+-   Les données quantitatives relatives (taux, indices etc.) doivent *toujours* être synthétisées et subdivisées en classes de valeurs.\
+    Cette procédure est souvent nommée **discrétisation**.
+
+# Les discrétisations {.inverse background-color="black"}
+
+## Quelques principes
+
+1.  Les classes doivent être homogènes et distinctes les unes des autres.
+
+2.  Le nombre de classes doit être inférieur au nombre d'observations.
+
+3.  **Les caractéristiques essentielles de la distribution doivent être préservées** (étendue, dispersion, forme de la distribution).
+
+4.  Il est préférable d'utiliser des limites de classes arrondies ou pertinentes. Les bornes de classes doivent être facile à lire et à mémoriser.
+
+## Comment procéder
+
+### 1. Résumer la série statistique
+
+-   Paramètres de position ou valeurs centrales (moyenne, médiane, mode)\
+    Ces paramètres indiquent la valeur "typique" autour de laquelle les observations sont réparties.
+-   Paramètres de dispersion (écart-type, intervalle inter quartiles...)\
+    Ces paramètres mesurent de l'écart des valeurs d'une distribution à une valeur centrale.
+
+### 2. Analyser la forme de la distribution
+
+-   Histogrammes, boîtes à moustaches, essaim d'abeilles (*beeswarm*)
+-   ...
+
+### 3. Déterminer les intervales des classes
+
+-   Il exise de nombreuses méthodes.
+
+# Les méthodes de discrétisations {.inverse background-color="black"}
+
+## Quelle dicrétisation choisir
+
+![](images/Figure-2.08.png)
+
+## Les méthodes
+
+::: panel-tabset
+### Les seuils naturels
+
+![](images/Figure-2.09.png)
+
+### Les amplitudes égales
+
+![](images/Figure-2.10.png)
+
+### Les effectifs égaux
+
+![](images/Figure-2.11.png)
+
+### Moyenne / écart-type
+
+![](images/Figure-2.12.png)
+
+### La progression géométrique
+
+![](images/Figure-2.13.png)
+:::
+
+## Les méthodes
+
+::: columns
+::: {.column width="48%"}
+::: medium
+![](images/Figure-2.14.png)
+:::
+:::
+:::
+
+## Visualisation des discrétisations : une petite application pédagogique
+
+::: columns
+::: {.column width="68%"}
+::: medium
+[![](images/jeg.png)](https://mappemonde.gitpages.huma-num.fr/archives/119/)
+:::
+:::
+:::
+
+::: aside
+Laurent Jégou, « Géovisualisation des discrétisations : une petite application pédagogique », *Mappemonde*, 119 \| 2017, <https://doi.org/10.4000/mappemonde.2569>
+:::
+
+## Les méthodes de discrétisation et leur utilisation dans Magrit
+
+{{< video https://www.youtube.com/embed/7J5CCpGSGvA width="560" height="315" >}}
+
+::: aside
+Nicolas Lambert, 2020. COURS - Les méthodes de discrétisation et leur utilisation dans Magrit. <https://www.youtube.com/watch?v=7J5CCpGSGvA>
+:::
+
 ## Habillage, mise en page et mise en scène de la carte
 
 ## Erreurs et pièges à éviter
 
+## Les composantes de l'information géographique
+
+<center>
+
+<br>
+
+```{r, echo = FALSE, out.width = "70%"}
+
+library(DiagrammeR)
+
+grViz("digraph dot {
+
+  # a 'graph' statement
+  graph [overlap = true]
+
+  # several 'node' statements
+  node [shape = rectangle, fontname = Helvetica, color='red', fontsize=9]
+  d1
+
+  node [shape = ellipse, fontname = Helvetica, color=black, fontsize = 6] // sets as circles
+  d2; d3
+  
+  d1 [label = 'Données géographiques'];
+  d2 [label = 'Géométries'];
+  d3 [label = 'Données'];
+
+  # several 'edge' statements
+  d1->d2[arrowhead = none]
+  d1->d3[arrowhead = none]
+
+}")
+```
+
+</center>
+
+
+## Géométries
+
+Elles définissent la **forme** et la **localisation** de l'objet à cartographier sur la surface terrestre.
+
+La position des géométries est toujours exprimée dans un système de coordonnées explicite : **coordonnées géographiques** (latitude / longitude) ou **coordonnées projetées** (X / Y).
+
+![](images/notre_dame.png)
+
+## Vecteurs et rasters
+
+2 types de données sont à différencier : le raster et le vecteur. <br><br>
+
+::: columns
+::: {.column .medium width="49%"}
+
+### Raster
+
+C'est une **image** (plan scanné, photographie aérienne, image satellitaire...) **localisée dans l'espace**.
+
+L'information géographique est alors stockée dans des cellules (pixel) contiguës généralement carrées.
+
+Chaque pixel **défini par une résolution** possède des valeurs qui peuvent être traitées et cartographiées.
+
+Leur manipulation et analyse relève de champs méthodologiques particuliers (télédétection). Les logiciels de cartographie thématique ne sont pas adaptés à leur manipulation (\> SIG).
+:::
+
+::: {.column width="51%"}
+![](images/raster.png)
+:::
+:::
+
+## Vecteurs et rasters
+
+2 types de données sont à différencier : le raster et le vecteur. <br><br>
+
+::: columns
+::: {.column width="49%"}
+### Vecteur
+
+Il s'agit d'objets géométriques de type **points**, **lignes** ou **polygones**.
+
+Ces objets vectoriels ne **pixelisent pas**. On parlera néanmoins de niveaux de généralisation pour qualifier leur niveau de précision (parfois aussi appelée résolution).
+
+Chaque objet est défini par **un identifiant unique**.
+:::
+
+::: {.column width="49%"}
+![](images/vecteur.png)
+:::
+:::
+
+## Vecteurs et rasters
+
+2 types de données sont à différencier : le raster et le vecteur. <br><br>
+
+<center>![](images/raster_vecteur.png)</center>
+
+## Formats de fichiers vectoriels
+
+:::{.medium}
+
+Les formats de stockage des géométries les plus connus sont :
+
+:::
+
+<br />
+
+::::{.columns .small}
+::: {.column width="49%"}
+
+-   **Shapefile (.shp)** : est le format de fichier **historique** des SIG. Initialement développé par ESRI pour ses logiciels commerciaux, il est devenu un standard *de facto*, malgré ses limitations (taille de fichiers, longueur texte, nombre maximal d'attributs)...
+
+<br />
+
+-   **Geographic JSON (.geojson)** : Un format ouvert d'encodage de données géospatiales utilisant la norme JSON (JavaScript Object Notation), assez répandu sur le Web (cartographie interactive).
+
+<br />
+
+-   **Geographic Markup Language (.gml)** : est un format de données géographiques basé sur XML. Il permet d'être très expressif (notamment via la possibilité de définir des schémas). Normalisé par l'Open Geospatial Consortium (OGC) depuis 2000.
+:::
+
+::: {.column width="49%"}
+-   **GeoPackage (.gpkg)** : Un format de données géospatiales raster ou vecteur, ouvert, non lié à un système d'exploitation. Conçu pour être aussi léger que possible, il permet notamment de stocker plusieurs couches géographiques dans un seul et même fichier.
+
+<br />
+
+-   **Keyhole Markup Language (.kml)** : est fondé sur le formalisme XML. Depuis 2008, le format est normalisé par l'Open Geospatial Consortium. Il s'agit, avec le .gpx, du format classique de données produites par GPS.
+
+<br />
+
+-   **Fichiers tabulaires (.csv, .xls, etc.)** : tout simplement ! À partir du moment où ils contiennent une dimension géographique.
+
+:::
+::::
+
+## Le shapefile
+
+::::{.columns .medium}
+
+Son extension est classiquement **.shp**, mais il est toujours accompagné de deux autres fichiers de même nom :
+
+::: {.column width="55%"}
+-   **.dbf** : contient les données attributaires.
+-   **.shx** : stocke l'index de la géométrie.
+
+D'autres fichiers peuvent optionnellement être également fournis :
+
+-   **.prj** : information sur le système de coordonnées.
+-   **.cpg** : gestion de l'encodage.
+-   *.shp.xml* : métadonnées du shapefile.
+-   *.sbn* et *.sbx*: index spatial des formes.
+-   et potentiellement d'autres : .fbn,.fbx, .atx...
+
+:::
+
+::: {.column width="44%"}
+<img src="images/shp.png" width="400"/>
+:::
+::::
+
+:::{.medium}
+
+> Il faut toujours conserver l'intégrité de l'ensemble de ces fichiers et ne jamais éditer un fichier en dehors de logiciels dédiés.
+
+:::
+
+
+## Niveaux de généralisation
+
+Le niveau de détail relatif aux géometries vectorielles (nombre de points).
+
+Les fournisseurs de données géographiques fournissent régulièrement plusieurs niveaux de généralisation, comme **Eurostat (GISCO)**.
+
+::: panel-tabset
+### 1:1 Million
+
+```{r, echo = FALSE}
+library(giscoR)
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 2, country = "France", resolution = "1")
+bzh <- nuts2[nuts2$NUTS_ID == "FRH0",]
+plot(bzh$geometry, col = NA, border = NA)
+plot(nuts2, col = "peachpuff", border = "white", add = TRUE)
+```
+
+### 1:3 Million
+
+```{r, echo = FALSE}
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 2, country = "France", resolution = "3")
+plot(bzh$geometry, col = NA, border = NA)
+plot(nuts2, col = "peachpuff", border = "white", add = TRUE)
+```
+
+### 1:10 Million
+
+```{r, echo = FALSE}
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 2, country = "France", resolution = "10")
+plot(bzh$geometry, col = NA, border = NA)
+plot(nuts2, col = "peachpuff", border = "white", add = TRUE)
+```
+
+### 1:20 Million
+
+```{r, echo = FALSE}
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 2, country = "France", resolution = "20")
+plot(bzh$geometry, col = NA, border = NA)
+plot(nuts2, col = "peachpuff", border = "white", add = TRUE)
+```
+
+### 1:60 Million
+
+```{r, echo = FALSE}
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 2, country = "France", resolution = "60")
+plot(bzh$geometry, col = NA, border = NA)
+plot(nuts2, col = "peachpuff", border = "white", add = TRUE)
+```
+:::
+
+## Niveaux de généralisation
+
+Le niveau de détail relatif aux géometries vectorielles (nombre de points).
+
+Les fournisseurs de données géographiques fournissent régulièrement plusieurs niveaux de généralisation, comme **Eurostat (GISCO)** ou **Natural Earth**.
+
+::: panel-tabset
+### 10 (large)
+
+```{r, echo = FALSE, warning=FALSE, message = FALSE, include = FALSE}
+library(rnaturalearth)
+library(sf)
+country_large <- ne_download(scale = "large", returnclass = "sf")
+country_medium <- ne_download(scale = "medium", returnclass = "sf")
+country_small <- ne_download(scale = "small", returnclass = "sf")
+```
+
+```{r, echo = FALSE, warning=FALSE, message = FALSE}
+par(mar=c(0,0,0,0))
+fra <- country_large[country_large$ADM0_A3 == "FRA",]
+fra <- st_cast(fra, "POLYGON")
+plot(fra[c(2,12),"geometry"], col = NA, border = NA)
+plot(country_large, col = "peachpuff", border = "white", add = TRUE)
+```
+
+### 50 (medium)
+
+```{r, echo = FALSE, warning=FALSE, message = FALSE}
+par(mar=c(0,0,0,0))
+plot(fra[c(2,12),"geometry"], col = NA, border = NA)
+plot(country_medium, col = "peachpuff", border = "white", add = TRUE)
+```
+
+### 110 (small)
+
+```{r, echo = FALSE, warning=FALSE, message = FALSE}
+par(mar=c(0,0,0,0))
+plot(fra[c(2,12),"geometry"], col = NA, border = NA)
+plot(country_small, col = "peachpuff", border = "white", add = TRUE)
+```
+:::
+
+## Niveaux de généralisation
+
+Le choix du niveau de généralisation adapté dépend des **objectifs de la carte**, de l'emprise de **espace d'étude**, et des **caractéristiques des polygones du fond de carte**.
+
+```{r, echo = FALSE}
+library(mapsf)
+library(sf)
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 3, resolution = "1", epsg = "3035")
+nuts0 <- gisco_get_nuts(nuts_level = 0, resolution = "1", epsg = "3035")
+xmin <- 2380000
+xmax <- 6550000
+ymin <- 1350000
+ymax <- 5420000
+
+lon <- c(xmin,xmax,xmax,xmin,xmin)
+lat <- c(ymin,ymin,ymax,ymax,ymin)
+frame <- st_sfc(st_polygon(list(cbind(lon, lat))))
+frame <- st_as_sf(frame)
+st_crs(frame) <- 3035
+
+map_theme <- mf_theme("default", bg = NA, fg = NA, mar = c(0, 0, 0, 0), tab = TRUE,
+                      pos = "left",  inner = TRUE, line = 3, cex = .8, font = 2)
+mf_theme(map_theme)
+mf_init(frame)
+mf_map(nuts2, var = "URBN_TYPE", type = "typo", pal = c("red", "yellow", "lightgreen"), 
+  val_order = c("1", "2", "3"), border = "white", lwd = .7, add = TRUE, leg_pos = "n")
+mf_legend(type = "typo", pos = "left", title = "Typologie Urbain-Rural",
+          val = c("Région à prédominance urbaine", "Region intermédiaire", 
+                  "Région à prédominance rurale"),
+          pal = c("red", "yellow", "lightgreen"))
+mf_map(nuts0, col = NA, border = "black", add = TRUE)
+mf_title("Niveau de généralisation : 1:1 Million", inner = TRUE)
+mf_credits(txt = "Source : GISCO, Eurostat, 2023")
+```
+
+## Niveaux de généralisation
+
+Le choix du niveau de généralisation adapté dépend des **objectifs de la carte**, de l'emprise de **espace d'étude**, et des **caractéristiques des polygones du fond de carte**.
+
+```{r, echo = FALSE}
+library(mapsf)
+library(sf)
+par(mar=c(0,0,0,0))
+nuts2 <- gisco_get_nuts(nuts_level = 3, resolution = "60", epsg = "3035")
+nuts0 <- gisco_get_nuts(nuts_level = 0, resolution = "60", epsg = "3035")
+
+mf_theme(map_theme)
+mf_init(frame)
+mf_map(nuts2, var = "URBN_TYPE", type = "typo", pal = c("red", "yellow", "lightgreen"), 
+  val_order = c("1", "2", "3"), border = "white", lwd = .7, add = TRUE, leg_pos = "n")
+mf_legend(type = "typo", pos = "left", title = "Typologie Urbain-Rural",
+          val = c("Région à prédominance urbaine", "Region intermédiaire", 
+                  "Région à prédominance rurale"),
+          pal = c("red", "yellow", "lightgreen"))
+mf_map(nuts0, col = NA, border = "black", add = TRUE)
+mf_title("Niveau de généralisation : 1:60 Million", inner = TRUE)
+mf_credits(txt = "Source : GISCO, Eurostat, 2023")
+```
+
+## Simplifier les géométries
+
+Des outils existent pour simplifier le niveau de détail des géométries, comme [Mapshapper](https://mapshaper.org/)
+
+::: columns
+::: {.column width="49%"}
+![](images/mapshapper.png)
+:::
+
+::: {.column width="49%"}
+![](images/mapshapper2.png)
+:::
+:::
+
+## Rechercher de l'information géographique
+
+Les fournisseurs de fonds de carte géoréférencés sont nombreux...
+
+:::{.medium}
+
+**Au niveau international**
+
+-   <a href="https://gadm.org/" target="_blank">Global Administrative Boundaries (GADM)</a>
+-   <a href="https://www.naturalearthdata.com/" target="_blank">Natural Earth</a>
+-   <a href="https://land.copernicus.eu/" target="_blank">Copernicus</a>
+-   <a href="https://www.worldpop.org/" target="_blank">World Pop</a>
+-   <a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data" target="_blank">Eurostat - GISCO</a>
+-   <a href="https://www.openstreetmap.fr/" target="_blank">OpenSreetMap (OSM)</a>, données exportables via des API comme <a href="http://overpass-turbo.eu/" target="_blank">Overpass-turbo</a>
+
+:::
+
+## Données attributaires
+
+L'ensemble des informations relatives à un objet géographique, qui le décrivent et le caractérisent.
+
+```{r, echo = FALSE, out.width = "800px", fig.align='center'}
+knitr::include_graphics('images/attribut.png')
+```
+
+## Pourquoi faire ?
+
+Les géométries contiennent souvent quelques attributs statistiques, **assez limités** pour initier des analyses ou produire des représentations cartographiques.
+
+::: columns
+::: {.column width="49%"}
+::: medium
+Attributs associés aux géométries des communes françaises (IGN)
+:::
+
+```{r, echo = FALSE, out.width = "800px", fig.align='center'}
+com <- read.csv("data/insee_extract.csv")
+head(com, 5)
+```
+:::
+
+::: {.column width="49%"}
+::: medium
+<center>Attributs associés aux géométries des régions européennes (GISCO)</center>
+:::
+
+```{r, echo = FALSE, out.width = "800px", fig.align='center'}
+library(giscoR)
+nuts2 <- gisco_get_nuts(nuts_level = 2, country = "FR", resolution = "60", epsg = "3035")
+nuts2 <- st_set_geometry(nuts2, NULL)
+head(nuts2)
+```
+:::
+:::
+
+
+## Dimension géographique de tableaux de données statistiques
+
+::::{.columns .medium}
+::: {.column width="49%"}
+On parle ici de tableaux de données définis par :
+
+-   Une emprise géographique (France, Europe, Monde, etc.)
+-   Une brique géographique élémentaire (une commune, une rivière, une région, une forêt, etc.)
+-   Des données attributaires utiles à l'analyse.
+-   Un identifiant unique pour chaque brique géographique élémentaire.
+-   Une correspondance au moins partielle avec le fond de carte dont on dispose.
+
+:::
+
+::: {.column width="49%"}
+![](images/Excel_tab.png)
+:::
+
+> On peut alors enrichir sémantiquement les géométries !
+
+::::
+
+## Comment faire ?
+
+Dans les cas relevant de la donnée institutionnelle c'est plutôt facile ! Les codes géographiques (uniques) des unités territoriales qui composent les fonds de carte sont normés et une association étroite entre fond de carte.
+
+::::{.columns .medium}
+::: {.column width="49%"}
+
+On peut citer par exemple :
+
+-   À l'**échelle mondiale** : Natural Earth (géométries) / Nations Unies (Population prospect) : pays définis par des codes ISO uniques.
+-   À l'**échelle européenne** : GISCO (géométries) / Eurostat (données socio-économiques). Régions européennes définies par la nomenclature **NUTS**.
+-   À l'**échelle française** : IGN (géométries) / INSEE. Plusieurs découpages disponibles (communes, EPCI, etc.)
+
+Il faut juste veiller à la **compatibilité de version des données et géométries**
+
+:::
+
+::: {.column width="49%"}
+
+Données de population communales de l'INSEE ![](images/insee.png)
+
+:::
+
+::::
+
+## Comment faire ?
+
+:::{.medium}
+Dans les cas relevant de la donnée institutionnelle c'est plutôt facile ! Les codes géographiques (uniques) des unités territoriales qui composent les fonds de carte sont normés et une association étroite entre fond de carte.
+:::
+
+::::{.columns .medium}
+::: {.column width="49%"}
+On peut citer par exemple :
+
+-   À l'**échelle mondiale** : Natural Earth (géométries) / Nations Unies (Population prospect) : pays définis par des codes ISO uniques.
+-   À l'**échelle européenne** : GISCO (géométries) / Eurostat (données socio-économiques). Régions européennes définies par la nomenclature **NUTS**.
+-   À l'**échelle française** : IGN (géométries) / INSEE. Plusieurs découpages disponibles (communes, EPCI, etc.)
+
+Il faut juste veiller à la **compatibilité de version des données et géométries**
+:::
+
+::: {.column width="49%"}
+Données de population communales de l'INSEE ![](images/ign.png)
+:::
+
+::::
+
+## Comment faire ?
+
+Pour les fonds de carte "moins conventionnels", utiliser les fonctionnalités des SIG ou des logiciels de cartographie thématique pour exporter les codes associés et gérer la bonne concordance entre les données que vous collectez et les fonds de carte de référence.
+
+![](images/export_csv.png)
+
+## Comment faire ?
+
+::::{.columns .medium}
+::: {.column width="49%"}
+
+L'enrichissement de données attributaires au format tabulaire (.csv, .xls, .ods, etc.) est réalisé par une **jointure attributaire**.
+
+Elle d'**associer deux tables attributaires décrivant des entités communes**. L'opération produit une seule table juxtaposant les champs de la table à joindre à ceux de la table d'origine.
+
+Avec les logiciels de cartographie / SIG, la table d'origine est souvent associée aux géométries.
+
+Les jointures attributaires sont utilisées pour introduire des informations nouvelles dans une couche géographique.
+
+:::
+
+::: {.column width="49%"}
+
+![](images/jointure_attributaire.png)
+
+Source : Université Virtuelle Environnement et Développement durable, glossaire des SIG
+
+:::
+::::
+
+## Comment faire ?
+
+La jointure attributaire est une fonctionnalité de base des logiciels de cartographie thématique ou de SIG.
+
+::: columns
+::: {.column width="49%"}
+![](images/join_1.png)
+:::
+
+::: {.column width="49%"}
+![](images/join_2.png)
+:::
+:::
+
+
+## Pour conclure sur l'information géographique
+
+<br>
+
+**Questions centrales à se poser** lorsque l'on recherche de l'information géographique :
+
+-   **Quel est mon espace d'étude ?** *Monde ? Europe ? France ? Ile-de-France ? ...*<br>
+
+-   **Quel est l'objet géographique sur lequel je travaille ?** *Pays ? Régions ? Communes ? Parcs naturels ? Rivières ? ...* <br>
+
+-   **Quelle est la thématique que je souhaite explorer ?** *Environnement ? Démographie ? Transport? ...* <br>
+
+-   **Quel est le format de données que je recherche ?** *Géométries ? Données statistiques à joindre à mes couches géographiques ?* <br>
+
+-   **Données institutionnelles ? Quelle période ?**
 
 # Présentation de l'application Magrit
 
@@ -133,12 +951,12 @@ Magrit est disponible en **français**, **anglais** et **espagnol** (Amérique l
 
 Magrit permet d'importer des **données géographiques** dans de nombreux formats :
 
-- GeoJSON
-- TopoJSON
-- Shapefile
-- GML
-- KML
-- GeoPackage
+- **GeoJSON**
+- **TopoJSON**
+- **Shapefile**
+- **GML**
+- **KML**
+- **GeoPackage**
 
 :::
 
@@ -146,9 +964,9 @@ Magrit permet d'importer des **données géographiques** dans de nombreux format
 
 Magrit permet également d'importer des **données tabulaires** (qui pourront être jointes à des données géographiques) :
 
-- CSV
-- XLS et XLSX
-- ODS
+- **CSV** / **TSV**
+- **XLS** et **XLSX**
+- **ODS**
 
 :::
 ::::
@@ -159,10 +977,12 @@ Magrit permet également d'importer des **données tabulaires** (qui pourront ê
 
 Magrit permet d'exporter les cartes réalisées dans différents formats :
 
-- PNG (par ex. pour une utilisation directe dans un rapport ou une présentation)
-- SVG (par ex. pour permettre une édition ultérieure dans un logiciel de dessin vectoriel comme InkScape ou Adobe Illustrator)
+- **PNG** (par ex. pour une utilisation directe dans un rapport ou une présentation)
+- **SVG** (par ex. pour permettre une édition ultérieure dans un logiciel de dessin vectoriel comme InkScape ou Adobe Illustrator)
 
-*Image*
+<center>
+<img src="images/ExportModifInkscape.png" class="w500">
+</center>
 
 ## Différents types d'exports disponibles
 
@@ -172,12 +992,12 @@ Magrit permet d'exporter les cartes réalisées dans différents formats :
 
 Il est également possible d'exporter les couches présentes dans la carte dans différents formats :
 
-- GeoJSON
-- TopoJSON
-- Shapefile
-- GML
-- KML
-- CSV (seulement les données attributaires)
+- **GeoJSON**
+- **TopoJSON**
+- **Shapefile**
+- **GML**
+- **KML**
+- **CSV** (seulement les données attributaires)
 
 <br />
 💡 Utile par exemple pour réutiliser les couches issues de certaines modes de représentation (lissage, discontinuités, cartogrammes, etc.) dans un SIG.
@@ -240,7 +1060,8 @@ jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.
 
 <center>
 
-**🖥️🕜 [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**
+**🖥️ [https://magrit.cnrs.fr/](https://magrit.cnrs.fr/)**  
+**🕜 Environ 35 minutes**
 
 </center>
 
@@ -250,16 +1071,50 @@ jusqu'à la réalisation d'une carte plus complexe, à la mise en page soignée.
 
 **Données utilisées :**
 
-- Départements et régions du Sénégal
+- Départements et régions du Sénégal ([https://www.africageoportal.com/](https://www.africageoportal.com/))
 - Données de population (RGPHAE 2013)
 
 :::
+
+:::{.notes}
+
+Déroulé de la démonstration : 
+
+- Import des données départements
+- Import des données régions
+- Insister sur la différence "fond de carte principal" et "fonds de carte d'habillage" /!\
+- Importer jeu de données Afrique...
+- Import du jeu de données CSV pour la population des départements
+- Jointure
+- Représentation Symboles proportionnels
+- Création de labels...
+- Ajout colonne densité population
+- Représentation choroplèthe
+- Représentation symboles proportionnels + choroplèthe
+- Représentation lissage
+- Représentation cartogramme
+- .... + choroplèthe sur le cartogramme
+- Ajout de couche de labels en modifiant la localisation des labels
+
+- Ajout fond de carte Monde pour habillage ...
+- Préparer habillage (titre, légende en la personnalisant, etc., contour autour du texte du titre, ajout texte avec source des données, ajout logo, etc.)
+- Export PNG
+- Export SVG
+- Export données
+
+
+:::
+
 
 # Exercices pratiques / discussion
 
 ## Exercice pratique
 
 ## Perspectives de développement
+
+- Un logiciel en développement actif...
+
+
 
 ## Discussion / conclusion
 
@@ -296,6 +1151,8 @@ BEGUIN Michèle, PUMAIN Denise.<br />**La représentation des données géograph
 **Dépôt GitHub** : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit)
 
 **Documentation** : [https://magrit.cnrs.fr/docs/](https://magrit.cnrs.fr/docs/)
+
+**Supports de formation** : [https://github.com/magrit-formations](https://github.com/magrit-formations)
 
 <br />
 
