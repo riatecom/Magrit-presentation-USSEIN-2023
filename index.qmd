@@ -1125,13 +1125,19 @@ Déroulé de la démonstration :
 
 **Objectif :** Réaliser une carte thématique simple avec Magrit, de l'import des données jusqu'à l'export d'une carte vous satisfaisant.
 
+<br />
+
 **Données utilisées :**
 
 - Départements et régions du Sénégal ([https://www.africageoportal.com/](https://www.africageoportal.com/))
 - Données de population (RGPHAE 2013)
 - Pays Africains ([GADM](https://gadm.org/))
 
-**Lien de téléchargement** : []()
+<br />
+
+**Lien de téléchargement** : **[https://link.infini.fr/datamagrit](https://link.infini.fr/datamagrit)**
+
+<br />
 
 **🚀 À vous de jouer !**
 
@@ -1142,6 +1148,8 @@ Déroulé de la démonstration :
 <br />
 
 Un logiciel en développement actif...
+
+<br />
 
 :::{.medium}
 
@@ -1193,6 +1201,10 @@ BEGUIN Michèle, PUMAIN Denise.<br />**La représentation des données géograph
 **Dépôt GitHub** : [https://github.com/riatelab/magrit](https://github.com/riatelab/magrit)
 
 **Supports de formation** : [https://github.com/magrit-formations](https://github.com/magrit-formations)
+
+<br />
+
+**Slides** : [https://mthh.github.io/Magrit-presentation-USSEIN-2023/](https://mthh.github.io/Magrit-presentation-USSEIN-2023/)
 
 <br />
 

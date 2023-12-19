@@ -20,7 +20,7 @@ Pour la récupérer au format PDF :
 
 - **Prérequis** :
   - [Quarto](https://quarto.org)
-  - R + les packages `sf`, `giscoR`, `rnaturalearth`, `DiagrammeR`
+  - R + les packages `sf`, `giscoR`, `DiagrammeR`
 
 - **Étapes** :
   - Cloner le dépôt
@@ -34,4 +34,4 @@ Le contenu de ce dépôt est mis à disposition selon les termes de la [Licence 
 
 ## Auteurs :bust_in_silhouette:
 
-[Matthieu Viry](https://github.com/mthh).
+[Matthieu Viry](https://github.com/mthh). Sur la base des [supports de formation de Magrit](https://magrit-formations.github.io/).
