@@ -9,7 +9,7 @@
 
 ## Voir la présentation :book:
 
-La présentation est disponible en ligne à l'adresse suivante : https://mthh.github.io/Magrit-presentation-USSEIN-2023/.
+La présentation est disponible en ligne à l'adresse suivante : [https://riatecom.github.io/Magrit-presentation-USSEIN-2023/](https://riatecom.github.io/Magrit-presentation-USSEIN-2023/).
 
 Pour la récupérer au format PDF :
 - se rendre à l'adresse https://mthh.github.io/Magrit-presentation-USSEIN-2023/?print-pdf=#/title-slide
